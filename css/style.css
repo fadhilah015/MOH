@@ -14,6 +14,7 @@ body {
     font-style: normal;
     font-weight: 300;
     position: relative;
+
 }
 
 html,body {
@@ -464,6 +465,8 @@ a.icon {
 /* ========================================== */
 #portfolio {
   text-align: right;
+
+direction: rtl;
  /* padding-top: 3rem;
   padding-bottom: 6rem;*/
 }
@@ -510,6 +513,7 @@ a.icon {
   position: relative;
   overflow: hidden;
   margin: 0;
+
 } 
 
 #portfolio .portfolio-thumb .portfolio-overlay {
@@ -599,6 +603,7 @@ a.icon {
 /*isotope box css*/
 .iso-box-section {
     width: 100%;
+    direction: rtl;
 }
 
 .iso-box-wrapper {
@@ -606,6 +611,7 @@ a.icon {
     padding: 0;
     clear: both;
     position: relative;
+    direction: rtl;
 }
 
 .iso-box {
@@ -614,6 +620,7 @@ a.icon {
     float: left;
     overflow: hidden;
     margin-bottom: 25px;
+    direction: rtl;
 }
 
 .iso-box > a {
